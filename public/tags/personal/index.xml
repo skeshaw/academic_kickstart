@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Personal | Keshaw Singh</title>
+    <link>/tags/personal/</link>
+      <atom:link href="/tags/personal/index.xml" rel="self" type="application/rss+xml" />
+    <description>Personal</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2019 Keshaw Singh</copyright><lastBuildDate>Wed, 30 Oct 2019 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/img/icon-192.png</url>
+      <title>Personal</title>
+      <link>/tags/personal/</link>
+    </image>
+    
+    <item>
+      <title>Low-resource Neural Machine Translation</title>
+      <link>/project/lorenmt/</link>
+      <pubDate>Wed, 30 Oct 2019 00:00:00 +0000</pubDate>
+      <guid>/project/lorenmt/</guid>
+      <description>&lt;p&gt;The developments in Neural Machine Translation community (NMT) have been showing way for the rest of the NLP researchers since the last 5-6 years, especially after the advent of seq2seq models [&lt;a href=&#34;https://papers.nips.cc/paper/5346-sequence-to-sequence-learning-with-neural-networks.pdf&#34; target=&#34;_blank&#34;&gt;Sutskever et al., 2014&lt;/a&gt;, &lt;a href=&#34;https://arxiv.org/pdf/1409.0473.pdf&#34; target=&#34;_blank&#34;&gt;Bahdanau et al., 2014&lt;/a&gt;] for translation. While more recent advances made in this field for languages like French (fr) and German (de) have been astonishing, one frequently overlooked fact is the amount of data and resources required for achieving those results.&lt;br /&gt;
+Especially when we consider low-resource languages like Basque (eu) and Gujarati (gu), it would be almost impossible to replicate those lofty scores for these languages due to much less amount of freely available data. However, encouraging efforts have been made in this field to make use of transfer learning [&lt;a href=&#34;https://www.aclweb.org/anthology/D16-1163.pdf&#34; target=&#34;_blank&#34;&gt;Zoph et al., 2016&lt;/a&gt;], whereby a parent model (say, de-en) over much larger dataset is used to provide a good initial point for translation in a low-resource setting (gu-en).&lt;br /&gt;
+As a part of this project, I implement an ACL 2019 paper [&lt;a href=&#34;https://www.aclweb.org/anthology/P19-1120.pdf&#34; target=&#34;_blank&#34;&gt;Kim et al., 2019&lt;/a&gt;] transfer learning model which also uses cross-lingual maps [&lt;a href=&#34;https://arxiv.org/pdf/1710.04087.pdf&#34; target=&#34;_blank&#34;&gt;Conneau et al., 2018&lt;/a&gt;] to learn, without any need for shared vocabularies between source and target languages. Due to limitations on available resources, I am only able to replicate the general trend of results, as reported in the paper, for Basque-English and extend the framework to Gujarati-English.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Microsoft AI Challenge</title>
+      <link>/project/msaic/</link>
+      <pubDate>Fri, 28 Dec 2018 00:00:00 +0000</pubDate>
+      <guid>/project/msaic/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://www.facebook.com/msaichallenge/&#34; target=&#34;_blank&#34;&gt;Competition homepage&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Ranking passages in response to search queries on the web is a crucial task. To promote work in this area, Microsoft India organized the Microsoft AI Challenge in 2018. The task consisted of appropriately ranking ten answers for each given query and maximizing the mean reciprocal rank (MRR) over a given test set.&lt;br /&gt;
+We began by working with popular models like bi-LSTM and Doc2Vec. After getting a good understanding of the data and exploring the relevant literature, we turned to using more advanced models like &lt;a href=&#34;https://arxiv.org/pdf/1707.07847.pdf&#34; target=&#34;_blank&#34;&gt;HYPERQA&lt;/a&gt; and bilateral multi-perspective matching for natural language sentences (&lt;a href=&#34;https://arxiv.org/pdf/1702.03814.pdf&#34; target=&#34;_blank&#34;&gt;BiMPM&lt;/a&gt;).&lt;br /&gt;
+Through our extensive experimentation, we were able to achieve results that led us to an expected final rank under 40 (280 teams in the second stage, and 1800 overall).&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
