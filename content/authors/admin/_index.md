@@ -27,7 +27,7 @@ interests:
 
 education:
   courses:
-  - course: BS in Mathematics and Scientific Computing, minor in Artificial Intelligence
+  - course: BS in Mathematics & Scientific Computing, minor in Artificial Intelligence
     institution: IIT Kanpur
     year: 2017
 
@@ -64,6 +64,6 @@ email: ""
 #- Visitors
 ---
 
-I am currently working in the algorithms team of Adobe AdCloud Search (prev. [Adobe Media Optimizer](https://www.adobe.com/advertising/media-optimizer.html)), where I build models which manage ad spends for businesses. I graduated from [IIT Kanpur](https://www.iitk.ac.in) in the summer of 2017, with a major in Mathematics and Scientific Computing and a minor in Artificial Intelligence.  
-My research interests include neural text generation tasks, which include neural machine translation (NMT) and abstractive summarization. I have worked on a variety of projects in machine learning, including summarization, object detection, and Bayesian matrix factorization. I have also worked on transfer learning, both in machine translation and in reinforcement learning.  
-Football occupies my weekends, and I also like to play [FIFA](https://www.ea.com/games/fifa) from time to time.
+I am currently working in the algorithms team of Adobe Advertising Cloud Search (prev. [Adobe Media Optimizer](https://www.adobe.com/advertising/media-optimizer.html)), where I build models which manage ad spends for businesses. I graduated from [IIT Kanpur](https://www.iitk.ac.in) in the summer of 2017, with a major in Mathematics & Scientific Computing and a minor in Artificial Intelligence.  
+I am fascinated by techniques that can help generate information in human languages, to accomplish useful tasks like machine translation and abstractive summarization. In particular, I am intrigued by methods based on the transfer learning paradigm, as I believe they can make up for the paucity of training data in low-resource languages.  
+I am an avid football fan and spend most of my weekends watching matches. Sometimes though, I try to brush up my Spanish.
