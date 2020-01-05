@@ -20,4 +20,4 @@ url_video: ""
 ---
 
 As the amount of available data around us explodes, it becomes important to be able to present the same in a concise manner. One possible use case could be searching through one's emails for getting a brief summary of threads related to some search terms.  
-Through this project, we build a model which returns extractive summaries of emails given a search query. We start by identifying threads which have terms matching with those in the query. This step is followed by clustering the relevant emails, and finally generating brief outputs containing the most significant information for each cluster.
+Through this project, we built a model which returned extractive summaries of emails given a search query. We started by identifying threads which had terms matching with those in the query. This step was followed by clustering the relevant emails, and finally generating brief outputs containing the most significant information for each cluster.
